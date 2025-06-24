@@ -3,7 +3,7 @@ models:
     columns:
       - name: customer_id
         tests:
-          - not null 
+          - not_null 
           - unique
   - name : stg_locations
     columns:
